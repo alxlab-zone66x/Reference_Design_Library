@@ -4,7 +4,7 @@
 
 # Connector Shield for Macintosh II-Family Computer
 
-This card shield is used on NuBus and PDS cards of many Macintosh models. The 3D model is based off the dimensions shown in [Designing Cards and Drivers for -the Macintosh Family Third Edition](docs/Connector Shield for Macintosh II-Family Computer_specs.png). The bracket model has no holes and is meant to be modified for whatever suits your needs. It supposed to use M3 screws like the original brackets. You can tap the bracket with a M3 screw or tap.
+This card shield is used on NuBus and PDS cards of many Macintosh models. The 3D model is based off the dimensions shown in [Designing Cards and Drivers for -the Macintosh Family Third Edition](docs/Connector%20Shield%20for%20Macintosh%20II-Family%20Computer_specs.png). The bracket model has no holes and is meant to be modified for whatever suits your needs. It supposed to use M3 screws like the original brackets. You can tap the bracket with a M3 screw or tap.
 
 
 
