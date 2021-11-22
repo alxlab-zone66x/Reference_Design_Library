@@ -1,4 +1,4 @@
-[Reference Design Library](../)
+[Reference Design Library](https://github.com/alxlab-zone66x/Reference_Design_Library)
 
 <img src="docs/Connector Shield for Macintosh II-Family Computer.png" alt="Mac DB15 to VGA v 1.0" />
 
