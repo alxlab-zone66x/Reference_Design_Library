@@ -6,7 +6,7 @@ This repository contains reference designs of PCB to be used as a base for other
 
 ## Designs
 
-[3.5" Hard Drive 50-pin SCSI PCB](3.5%20Hard%20Drive%2050-pin%20SCSI%20PCB)
+[3.5" Hard Drive 50-pin SCSI PCB](3.5%20Hard%20Drive%2050-pin%20SCSI%20PCB)\
 [Connector Shield for Macintosh II-Family Computer \(aka NuBus and PDS Card bracket\)](Connector%20Shield%20for%20Macintosh%20II-Family%20Computer)
 
 
