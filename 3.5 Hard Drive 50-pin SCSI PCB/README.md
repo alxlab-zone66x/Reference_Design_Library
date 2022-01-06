@@ -24,32 +24,66 @@ The TH model uses through hole mounting of the connectors. The ED version uses e
 
 **Note:** The shroud for the TH 50-pin connector will need to be removed and flipped after soldering the connector to the board. Alternatively you can use a connector with no shroud.
 
-The mounting holes of the 3D printed PCB holder is based off of SFF-8301 Specification for Form Factor of 3.5" Disk Drives Rev 1.6 which is included in the docs folder.
+The mounting holes of the 3D printed PCB holder is based off of [SFF-8301 Specification](docs/references/SFF-8301-Specification-for-Form-Factor-of-3.5-Disk-Drives-v1.6-March-16-2010.pdf) for Form Factor of 3.5" Disk Drives Rev 1.6, [Quantum ProDrive 40S/80S](docs/references/Quantum_ProDrive_40S_80S_Product_Manual_Jun88.pdf) specs and the [IBM Ultrastar ES DORS 32160](docs/references/ibm_dors_32160.pdf) spec. This should cover the variations of the placement of mounting holes over the years.
+
+
+
+## PCB Bill of Materials for ED Version
+
+| Quantity | Description                                   | Designator | Product Number | Datasheet                                         |
+| :------- | --------------------------------------------- | ---------- | -------------- | ------------------------------------------------- |
+| 1        | 2 x 25-pin male header straight through-hole  | J1         | 350211-1       | [pdf](docs/datasheets/J1_ED_ASS_2314_CO.pdf)      |
+| 1        | Mate-n-Lok 4-pin female straight through-hole | J2         | 302-S501       | [pdf](docs/datasheets/J2_ED_ENG_CD_350211_U5.pdf) |
+
+
+
+## PCB Bill of Materials for TH Version
+
+| Quantity | Description                                      | Designator | Product Number                                       | Datasheet                                                    |
+| :------- | ------------------------------------------------ | ---------- | ---------------------------------------------------- | ------------------------------------------------------------ |
+| 1        | 2 x 25-pin male header right angle through-hole  | J1         | 30350-5002HB<br />PREC025DBAN-M71RC (without shroud) | [pdf](docs/datasheets/J1_TH_PAGE122 .100 SBH11 SERIES MALE BOX HDR ST RA SMT.pdf)<br />[pdf (without shroud)](docs/datasheets/J1_TH_11639.pdf) |
+| 1        | Mate-n-Lok 4-pin female right angle through-hole | J2         | 770846-1                                             | [pdf](docs/datasheets/J2_TH_ENG_CD_770846_B.pdf)             |
+
+
+
+## 3D Models
+
+As usual I try to minimize the need for support and only the top case needs them for where the screws go. Choose whatever infill percentage you desire. The top cover screws are M3 which are used by CD drives and floppy drives. The side and bottom screws are sized for standard #6-32 UNC screws used to mount hard drives. The holes are tapered to help tapping the holes with the screws.
+
+### Edge Connector PCB Cases
+
+| Full size case with openings<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_ED_case.png" alt="Tinker Different" style="width: 100%;" /><br />[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_TH.zip) | **Full size case with openings**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_ED_case_openings.png" alt="Tinker Different" style="width: 100%;" /><br />[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_TH_openings.zip) |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| **100mm pcb case**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_ED_100_case.png" alt="Tinker Different" style="width: 100%;" /><br />[**download**](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_TH_100.zip) | **100mm pcb case with openings**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_ED_100_case_openings.png" alt="Tinker Different" style="width: 100%;" /><br />[**download**](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_TH_100_openings.zip) |
+
+### Edge Connector PCB Cases
+
+| Full size case with openings<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_TH_case.png" alt="Tinker Different" style="width: 100%;" /><br />[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_ED.zip) | **100mm pcb case**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_TH_case_openings.png" alt="Tinker Different" style="width: 100%;" /><br />[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_ED_openings.zip) |
+| :----------------------------------------------------------: | :----------------------------------------------------------: |
+| **Full size case with openings**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_TH_100_case.png" alt="Tinker Different" style="width: 100%;" /><br />**[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_ED_100.zip)** | **100mm pcb case with openings**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_TH_100_case_openings.png" alt="Tinker Different" style="width: 100%;" /><br />[**download**](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_ED_100_openings.zip) |
+
+
+
+## Case Bill of Materials
+
+| Quantity | Description                 |
+| :------- | --------------------------- |
+| 6        | M3 pan head screw 5mm - 7mm |
+
+
+
+## Case Bill of Materials for 100mm PCB
+
+| Quantity | Description                 |
+| :------- | --------------------------- |
+| 4        | M3 pan head screw 5mm - 7mm |
 
 
 
 ## Todo
 
-- Review and add 3D models for the pcb cases
 - Add schematic symbols for the SCSI and power connectors
-
-
-
-## Bill of Materials for EG Version
-
-| Designator | Quantity | Product Number | Datasheet                                                    |
-| ---------- | :------- | -------------- | ------------------------------------------------------------ |
-| J1         | 1        | 350211-1       | https://www.molex.com/pdm_docs/sd/015244449_sd.pdf           |
-| J2         | 1        | 302-S501       | http://www.on-shore.com/wp-content/uploads/2018/04/302-SXX1.pdf |
-
-
-
-## Bill of Materials for TH Version
-
-| Designator | Quantity | Product Number | Datasheet                                                    |
-| ---------- | :------- | -------------- | ------------------------------------------------------------ |
-| J1         | 1        | 30350-5002HB   | https://multimedia.3m.com/mws/media/22504O/3mtm-100-in-loprof-hdr-100x-100strt-ra-4-wall-ts0818.pdf |
-| J2         | 1        | 770846-1       | https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=770846&DocType=Customer+Drawing&DocLang=English |
+- Create 3D model to help align connectors when soldering
 
 
 
