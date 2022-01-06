@@ -41,7 +41,7 @@ The mounting holes of the 3D printed PCB holder is based off of [SFF-8301 Specif
 
 | Quantity | Description                                      | Designator | Product Number                                       | Datasheet                                                    |
 | :------- | ------------------------------------------------ | ---------- | ---------------------------------------------------- | ------------------------------------------------------------ |
-| 1        | 2 x 25-pin male header right angle through-hole  | J1         | 30350-5002HB<br />PREC025DBAN-M71RC (without shroud) | [pdf](docs/datasheets/J1_TH_PAGE122 .100 SBH11 SERIES MALE BOX HDR ST RA SMT.pdf)<br />[pdf (without shroud)](docs/datasheets/J1_TH_11639.pdf) |
+| 1        | 2 x 25-pin male header right angle through-hole  | J1         | 30350-5002HB<br />PREC025DBAN-M71RC (without shroud) | [pdf](docs/datasheets/J1_TH_PAGE122%20.100%20SBH11%20SERIES%20MALE%20BOX%20HDR%20ST%20RA%20SMT.pdf)<br />[pdf (without shroud)](docs/datasheets/J1_TH_11639.pdf) |
 | 1        | Mate-n-Lok 4-pin female right angle through-hole | J2         | 770846-1                                             | [pdf](docs/datasheets/J2_TH_ENG_CD_770846_B.pdf)             |
 
 
