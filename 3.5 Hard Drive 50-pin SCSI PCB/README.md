@@ -52,15 +52,22 @@ As usual I try to minimize the need for support and only the top case needs them
 
 ### Edge Connector PCB Cases
 
-| Full size case with openings<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_ED_case.png" alt="Tinker Different" style="width: 100%;" /><br />[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_TH.zip) | **Full size case with openings**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_ED_case_openings.png" alt="Tinker Different" style="width: 100%;" /><br />[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_TH_openings.zip) |
+| Full size case with openings<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_ED_case.png" alt="3.5 inch hard drive 50-pin SCSI edge connector 100mm pcb case" style="width: 100%;" /><br />[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_TH.zip) | **Full size case with openings**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_ED_case_openings.png" alt="3.5 inch hard drive 50-pin SCSI edge connector pcb case with openings" style="width: 100%;" /><br />[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_TH_openings.zip) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **100mm pcb case**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_ED_100_case.png" alt="Tinker Different" style="width: 100%;" /><br />[**download**](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_TH_100.zip) | **100mm pcb case with openings**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_ED_100_case_openings.png" alt="Tinker Different" style="width: 100%;" /><br />[**download**](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_TH_100_openings.zip) |
+| **100mm pcb case**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_ED_100_case.png" alt="3.5 inch hard drive 50-pin SCSI edge connector 100mm pcb case" style="width: 100%;" /><br />[**download**](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_TH_100.zip) | **100mm pcb case with openings**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_ED_100_case_openings.png" alt="3.5 inch hard drive 50-pin SCSI edge connector 100mm pcb case with openings" style="width: 100%;" /><br />[**download**](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_TH_100_openings.zip) |
 
-### Edge Connector PCB Cases
+### Through-Hole Connector PCB Cases
 
-| Full size case with openings<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_TH_case.png" alt="Tinker Different" style="width: 100%;" /><br />[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_ED.zip) | **100mm pcb case**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_TH_case_openings.png" alt="Tinker Different" style="width: 100%;" /><br />[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_ED_openings.zip) |
+| Full size case<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_TH_case.png" alt="3.5 inch hard drive 50-pin SCSI through-hole connector pcb case" style="width: 100%;" /><br />[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_ED.zip) | **Full size case with openings**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_TH_case_openings.png" alt="3.5 inch hard drive 50-pin SCSI through-hole connector pcb case with openings" style="width: 100%;" /><br />[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_ED_openings.zip) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| **Full size case with openings**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_TH_100_case.png" alt="Tinker Different" style="width: 100%;" /><br />**[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_ED_100.zip)** | **100mm pcb case with openings**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_TH_100_case_openings.png" alt="Tinker Different" style="width: 100%;" /><br />[**download**](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_ED_100_openings.zip) |
+| **100mm pcb case**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_TH_100_case.png" alt="3.5 inch hard drive 50-pin SCSI through-hole connector 100mm pcb case" style="width: 100%;" /><br />**[download](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_ED_100.zip)** | **100mm pcb case with openings**<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_TH_100_case_openings.png" alt="3.5 inch hard drive 50-pin SCSI through-hole connector 100mm pcb case with openings" style="width: 100%;" /><br />[**download**](3d_models/3.5_Hard_Drive_Case_50-pin_SCSI_ED_100_openings.zip) |
+
+### Edge Connector Alignment Tool
+
+This model is meant to be used to help align the ED connectors while soldering.
+
+| ED PCB Connector Alignment Tool<br /><img src="docs\3.5_Hard_Drive_50-pin_SCSI_ED_Connector_Alignment_Tool_v1.png" alt="3.5 inch hard drive 50-pin SCSI ED PCB Connector Alignment Tool" style="width: 50%;" /><br />[download](3d_models/3.5_Hard_Drive_50-pin_SCSI_ED_Connector_Alignment_Tool_v1.zip) |
+| :----------------------------------------------------------: |
 
 
 
